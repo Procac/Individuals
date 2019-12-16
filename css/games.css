@@ -1,0 +1,55 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 22px;
+	font-family: '微软雅黑';
+	background: url('../素材/imgs/img_moshou/bg-s.jpg') no-repeat center top;
+}
+#wrap {
+	width: 1000px;
+	height: 854px;
+	background: url('../素材/imgs/img_moshou/main-bg-s.jpg');
+	margin: 0 auto;
+}
+#wrap #topnav {
+	width: 984px;
+	height: 130px;
+	background: url('../素材/imgs/img_moshou/top-nav-bg-s.png');
+}
+#wrap #topnav a {
+	color: #ff0;
+	text-decoration: none;
+	display: inline-block;
+	width: 115px;
+	height: 130px;
+	line-height: 115px;
+	text-align: center;
+}
+#wrap #banner {
+	display: block;
+	height: 400px;
+}
+#wrap #bottomnav {
+	width: 990px;
+	height: 86px;
+	background: url('../素材/imgs/img_moshou/bot-nav-bg-s.png');
+}
+#wrap #bottomnav a {
+	display: inline-block;
+	width: 172px;
+	height: 86px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 86px;
+}
+#wrap #bottomnav a.large {
+	width: 265px;
+	color: #000;
+	line-height: 1.25em;
+	height: auto;
+}

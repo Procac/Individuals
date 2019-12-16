@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+   *{margin:0px; padding:0px;}
+   body{font-size:12px;}
+   #wrap{width:520px; margin:20px auto;}
+   #title{ background-color:#ADC8E5; border-bottom:1px solid #aaa;}
+   .divSub{ width:500px; margin:20px auto; border-bottom:1px dashed #aaa; overflow:hidden; padding:10px 0px;}
+   #title span{color:#AF080B; font-weight:bold;}
+   #title ul{ float:right; list-style:none; margin-right:25px; overflow:hidden;}
+   #title ul li{ float:left; margin-right:10px;}
+   #title ul li a{ color:#000; text-decoration:none;}
+   .divSub div{ width:200px; float:left; margin-right:30px; text-align:center;}
+   .divSub div a{ text-decoration:none; line-height:2em;}
+   .divSub div ul{ float:left; color:#165fc3;}
+   
+

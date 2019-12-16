@@ -1,0 +1,145 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 12px;
+	background: #645432;
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	color: #990;
+}
+#wrap {
+	width: 800px;
+	height: 800px;
+	background: #886E49;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#top {
+	width: 1000px;
+	height: 40px;
+}
+#top_lift {
+	height: 20px;
+	width: 380px;
+	float: left;
+	padding: 10px 10px;
+}
+#top_right {
+	height: 20px;
+	width: 380px;
+	float: right;
+	text-align: right;
+	padding: 10px 0;
+}
+#nav {
+	height: 120px;
+	width: 1000px;
+}
+#nav img {
+	float: left;
+}
+#nav ul {
+	height: 120px;
+	width: 600px;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+#nav ul li {
+	float: left;
+	margin-left: 30px;
+}
+#bottom_nav ul {
+	float: left;
+	list-style: none;
+	height: 20px;
+	width: 1000px;
+	margin-top: 5px;
+}
+#bottom_nav ul li {
+	float: left;
+}
+#bottom_nav p {
+	color: #FFF;
+	margin-top: 5px;
+}
+#content {
+	height: 550px;
+	width: 1000px;
+	background: #FFF;
+	float: left;
+}
+#main {
+	width: 900px;
+	margin: 0 auto;
+}
+#main a {
+	color: #990;
+}
+#main a:hover {
+	color: #000;
+}
+#main p {
+	height: 20px;
+	width: 900px;
+	border-bottom: solid 3px #CCCCCC;
+}
+#ber {
+	height: 25px;
+	width: 900px;
+	margin-top: 5px;
+	background: #B0A997;
+	color: #573D22;
+}
+#imgs {
+	height: 230px;
+	width: 900px;
+	margin: 10px 5px;
+	line-height: 22px;
+}
+#imgs img {
+	float: right;
+	margin: 0 20px;
+	border: solid 2px #CCC;
+	padding: 5px;
+}
+#imgs a {
+	color: #990;
+	list-style: none;
+	margin-top: 40px;
+}
+#imgs a:hover {
+	color: #000;
+}
+#imgs h4 {
+	text-indent: 2em;
+}
+#imges {
+	width: 900px;
+	height: 200px;
+	border-bottom: solid 2px #CCCCCC;
+	border-top: solid 2px #CCCCCC;
+	text-align: center;
+}
+#imges img {
+	margin-top: 12px;
+}
+
+
+#content{width:800px; margin:20px auto;}
+   #title{ background-color:#ADC8E5; border-bottom:1px solid #aaa;}
+   .divSub{ width:500px; margin:20px auto; border-bottom:1px dashed #aaa; overflow:hidden; padding:10px 0px;}
+   #title span{color:#AF080B; font-weight:bold;}
+   #title ul{ float:right; list-style:none; margin-right:25px; overflow:hidden;}
+   #title ul li{ float:left; margin-right:10px;}
+   #title ul li a{ color:#000; text-decoration:none;}
+   .divSub div{ width:200px; float:left; margin-right:30px; text-align:center;}
+   .divSub div a{ text-decoration:none; line-height:2em;}
+   .divSub div ul{ float:left; color:#165fc3;}

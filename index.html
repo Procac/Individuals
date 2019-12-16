@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" type="text/css"  href="css/index.css" />
+<script type="text/javascript">
+$(document).ready(function(){
+	var switchSpeed = 3000; //图片切换时间 
+	var fadeSpeed = 2000; //渐变时间 
+	setInterval(function(){ 
+	$('#banner img').last().fadeOut(fadeSpeed, function(){ 
+	$(this).show().parent().prependTo($('#banner ul')); 
+	}); 
+	}, switchSpeed); 
+});
+</script>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="top">
+    <div id="top_lift"> <a href="login.html">登录&nbsp;|</a> <a href="login.html">注册&nbsp;|</a> <a href="#">企业邮箱</a> </div>
+    <div id="top_right"> <a href="#">中文|</a> <a href="#">English|</a> <a href="#">日语</a> </div>
+  </div>
+  <div id="nav"> <img src="素材/imgintroduce/logo.jpg" />
+    <ul style="line-height:10">
+      <li> <a href="index.html">酒店首页</a> </li>
+      <li> <a href="introduce.html">酒店介绍</a></li>
+      <li> <a href="room.html">酒店设施</a></li>
+	  <li> <a href="reserve.html">更多资讯</a></li>
+      <li> <a href="games.html">游戏</a></li>
+      <li> <a href="English.html">海外合作</a></li>
+    </ul>
+  </div>
+  <div id="banner">
+    <ul>
+      <li><img src="素材/imgindex/banner01.jpg" /></li>
+      <li><img src="素材/imgindex/banner02.jpg" /></li>
+      <li><img src="素材/imgindex/banner03.jpg" /></li>
+      <li><img src="素材/imgindex/banner04.jpg" /></li>
+      <li><img src="素材/imgindex/banner05.jpg" /></li>
+      <li><img src="素材/imgindex/banner06.jpg" /></li>
+      <li><img src="素材/imgindex/banner07.jpg" /></li>
+      <li><img src="素材/imgindex/banner08.jpg" /></li>
+      <li><img src="素材/imgindex/banner09.jpg" /></li>
+    </ul>
+  </div>
+  <div id="mainbody">
+    <div id="left">
+      <div id="left_top">
+        <table width="290" height="50"  border="0" style="margin-left:5px; color:#FFFFFF; margin-top:10px;" cellspacing="0">
+          <tr>
+            <td colspan="2" style="color:#574400;  font-size:14px">客房预订</td>
+          </tr>
+          <tr>
+            <td>入住日期</td>
+            <td>离开日期</td>
+          </tr>
+          <tr>
+            <td><input type="text" value="" size="14"></td>
+            <td><input type="text" value="" size="14"></td>
+          </tr>
+        </table>
+        <table width="290" height="60" border="0" style="margin-left:5px; color:#FFFFFF;" cellspacing="0">
+          <tr >
+            <td >房间数</td>
+            <td>成人</td>
+            <td>儿童</td>
+            <td>币种</td>
+          </tr>
+          <tr>
+            <td><select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="更多">更多</option>
+              </select></td>
+            <td><select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="更多">更多</option>
+              </select></td>
+            <td><select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="更多">更多</option>
+              </select></td>
+            <td><select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="更多">更多</option>
+              </select></td>
+          </tr>
+        </table>
+        <table width="290" height="50"  border="0" style="margin-left:5px; color:#FFFFFF;" cellspacing="0">
+          <tr>
+            <td>房型</td>
+            <td>促销套餐</td>
+          </tr>
+          <tr>
+            <td><input type="text" value="" size="14"></td>
+            <td><input type="text" value="" size="14"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center" style="margin-top:5px;"><input type="submit" value="提交"  style="margin-top:5px;"></td>
+          </tr>
+        </table>
+      </div>
+      <div style="height:5px; width:300px; background:#FFFFFF; margin:5px 0px;"></div>
+      <div id="left_bottom">
+        <table width="290" height="50"  border="0" style="margin-left:5px; color:#FFFFFF; margin-top:25px;" cellspacing="0">
+          <tr>
+            <td colspan="2" style="color:#645432; font-size:14px">订单查询</td>
+          </tr>
+          <tr>
+            <td>订单号</td>
+            <td>邮箱</td>
+          </tr>
+          <tr>
+            <td><input type="text" value="" size="14"></td>
+            <td><input type="text" value="" size="14"></td>
+          </tr>
+          <tr>
+            <td colspan="2">或手机</td>
+          </tr>
+          <tr>
+            <td><input type="text" value="" size="14"></td>
+            <td><input type="submit" value="提交" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="middle">
+      <div id="middle_top">
+        <table width="450px" height="220px" border="0" style=" border-collapse:collapse;">
+          <tr style="border-top:5px solid #FFFFFF;background:#C1BC9F; width:482;">
+            <td colspan="2" style="color:#5F550D; font-size:14px">新闻动态</td>
+          </tr>
+          <tr style="border-bottom:solid 2px #8B8A8A;">
+            <td >浙江省海外交流协会第五届理事会会议在浙江世贸君澜<br/>
+              大饭店举行</td>
+            <td style="text-align:right;">2009-04-24</td>
+          </tr>
+          <tr style="border-bottom:solid 2px #8B8A8A;">
+            <td >浙江省世贸君澜大饭店荣膺“中国饭店业30年最具影响<br/>
+              力饭店”称号行</td>
+            <td style="text-align:right;">2009-04-24</td>
+          </tr>
+          <tr style="border-bottom:solid 2px #8B8A8A;">
+            <td >浙江世贸君澜大饭店副总经理潘玮女士荣誉出任浙江省<br/>
+              饭店业协会第二届副会长</td>
+            <td style="text-align:right;">2009-04-24</td>
+          </tr>
+          <tr style=" border-bottom:solid 2px #8B8A8A;">
+            <td >世贸君澜之夜.2009浙江慈善迎新感恩答谢晚会倾情上演</td>
+            <td style="text-align:right;">2009-04-24</td>
+          </tr>
+        </table>
+      </div>
+      <div id="middle_bot">
+        <table height="25" width="450" border="0" style="margin-top:15px;">
+          <tr  style="background:#C1BC9F; width:482; height:25px;" >
+            <td colspan="3" style="color:#5F5219;  font-size:14px">特别推荐</td>
+          </tr>
+          <tr style="text-align:center;">
+            <td ><img src="素材/imgindex/promotion3.jpg" /></td>
+            <td><img src="素材/imgindex/promotion1.jpg" /></td>
+            <td><img src="素材/imgindex/promotion2.jpg" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="right">
+      <div id="right_top">
+        <table width="230" height="260" border="0" style="border-collapse:collapse; margin-left:5px">
+          <tr style="background:#C1BC9F; width:482;">
+            <td colspan="2" style="color:#5F550D;background:#C1BC9F; font-size:14px">酒店设施</td>
+          </tr>
+          <tr>
+            <td>舒适客房</td>
+            <td>餐饮美食</td>
+          </tr>
+          <tr>
+            <td>会议中心</td>
+            <td>世贸俱乐部</td>
+          </tr>
+          <tr>
+            <td>香榭九号</td>
+            <td>世贸写字楼</td>
+          </tr>
+          <tr style="width:482;">
+            <td colspan="2" >展览中心</td>
+          </tr>
+          <tr style="background:#C1BC9F; width:482;">
+            <td colspan="2" style="color:#5F550D; background:#C1BC9F; font-size:14px">酒店印象</td>
+          </tr>
+          <tr>
+            <td>酒店纵览</td>
+            <td>艺术环境</td>
+          </tr>
+          <tr>
+            <td>酒店相册</td>
+            <td>历史回顾</td>
+          </tr>
+          <tr style="background:#C1BC9F; width:482;">
+            <td colspan="2" style="color:#5F550D;background:#C1BC9F; font-size:14px">天气预报</td>
+          </tr>
+        </table>
+      </div>
+      <div id="right_bot"> <img src="素材/imgindex/weather.jpg" /> </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div id="bottom_nav">
+      <ul>
+        <li><a href="#">|&nbsp;&nbsp;酒店首页</a></li>
+        <li><a href="#">|&nbsp;&nbsp;酒店介绍</a></li>
+        <li><a href="#">|&nbsp;&nbsp;客房预订</a></li>
+        <li><a href="#">|&nbsp;&nbsp;联系我们</a></li>
+        <li><a href="#">|&nbsp;&nbsp;酒店新闻</a></li>
+        <li><a href="#">|&nbsp;&nbsp;网站地图</a></li>
+        <li><a href="#">|&nbsp;&nbsp;管理公司</a></li>
+        <li><a href="#">|&nbsp;&nbsp;友情链接</a></li>
+      </ul>
+      <br/>
+      <p>地址：浙江杭州市曙光路122号 邮编：310007 电话：+86（571）87990888 传真：+86（571）87950088</p>
+      <p>北京世纪罗盘电子商务有限公司技术支持</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

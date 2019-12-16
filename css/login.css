@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body{
+	margin:0px; 
+	padding:0px;
+	 background:url('../素材/imgs/7.jpg') no-repeat;
+	 text-align: center;
+	 color:#FFF;
+	 }
+ body a{ 
+    text-decoration: none;
+	color:#ccc;
+ }
+ h1 {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin: 60px 0;
+    color: #FFFFFF;
+	
+}
+h2{ margin-top:-2px; font-size:30px;margin-bottom:20px;font-weight:100; text-align:left;}
+ input{
+	 background-color:transparent;
+	 border: 1px solid rgba(0,0,0, 0);
+	 border-bottom:1px solid #666;
+	 
+	 }
+ #container{
+	 background-color:rgba(0,0,0,0.5);
+	 width:750px;
+	 height:400px;
+	 overflow:hidden;
+	 margin:0 auto;
+	 }
+ #left{
+	
+	border-right:1px solid #FFFFFF;
+	width:300px;
+    float:left;
+	margin:40px;
+    text-align:left;
+    padding-right:40px;
+	 }
+ #right{
+	 
+	 margin:40px 0px;
+	 text-align:left; 
+     float:left;
+	 width:300px;
+	 height:300px;
+	 }
+	input[type="text"], input[type="password"] {
+    width: 93.4%;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.41);
+    outline: none;
+    color: #FFF;
+}
+
+    input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 1px solid #EEE;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    bottom: 4px;
+}
+input[type="submit"] {
+	width:60%;
+	padding:10px 0;
+	font-size:8;
+	font-weight:100;
+	color:#ccc;
+	border:1px solid rgba(238, 238, 238, 0.41);
+}
+ .ioc ul { overflow:hidden;}
+ .ioc ul li{ float:left; list-style:none; margin-right:20px;}
+ .ioc ul li img { width:30px; height:30px;}
+ #bottom{ margin-top:80px;}
+	

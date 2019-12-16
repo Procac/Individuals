@@ -1,0 +1,222 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	font-size: 3em;
+	font-family: Impact;
+	line-height: 1.5em;
+	background-image: url(../素材/imgOscar/buntingFW.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 45px;
+	animation:warning 1s 5 ease-in;
+}
+#content {
+	float: right;
+	width: 60%;
+}
+#side {
+	float: right;
+	width: 40%;
+	background:linear-gradient(90deg,transparent 0%,#e4e4e4 50%,transparent 98.8%,#e4e4e4 100%);
+}
+#wrap {
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#side section img {
+	width: 45%;
+	box-shadow: 0px 3px 5px #444444;
+	margin-left: 2%;
+}
+#side section:nth-of-type(1) a:nth-of-type(1) img
+{
+	animation:swing 0.5s 5 ease-in;
+}
+#side section:nth-of-type(1) a:nth-of-type(2) img
+{
+	animation:swing 0.5s 5  ease-in 0.3s;
+}
+#side section:nth-of-type(2) a:nth-of-type(1) img
+{
+	animation:swing 0.5s 5 0.6s ease-in;
+}
+#side section:nth-of-type(2) a:nth-of-type(2) img
+{
+	animation:swing 0.5s 5 0.9s ease-in;
+}
+#content img { float: left; }
+#content h1 {
+	font-family: Impact;
+	font-weight: normal;
+	font-size: 2.8em;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.75), 5px 5px 3px rgba(102,102,102,0.75);
+	float: left;
+	width: 50%;
+	text-align:center;
+	transform-origin:center center;
+	transition:all 1s linear;
+}
+#content h1:hover {
+	transform:scale(1.5);
+}
+#content h2 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 2em;
+	color: rgba(102,102,102,1);
+	text-shadow: 1px 1px 2px rgba(102,102,102,1);
+	float: left;
+	text-align:center;
+	width: 60%;
+	transition:all 0.6s ease-out;
+}
+#content h2:hover {
+	/*text-shadow: 3px 3px 5px rgba(102,102,102,1);*/
+	text-shadow: 0px 0px 10px rgba(102,102,102,1);
+}
+body { font-family: "Comic Sans MS", cursive; 
+	background-image:linear-gradient(#f3f3f3 3px,transparent 3px),linear-gradient(rgba(204,204,204,0.3) 1px,transparent 1px);
+	background-size:100px 100px,20px 20px;
+}
+#content p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: rgba(102,102,102,1);
+	float: left;
+	width: 65%;
+}
+#content a {
+	display: block;
+	float: left;
+	line-height: 1em;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 5%;
+	text-decoration: none;
+	color: hsla(0,0%,100%,1);
+	background: linear-gradient(0deg,#b01c20 0%,#f15c60 100%);
+	/*background-color:#b01c20;*/
+	font-size: 1.5em;
+	font-family: Impact;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px  hsla(0,0%,40%,1);
+	text-shadow: 0px 2px hsla(0,0%,0%,1);
+	padding-top: 25px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	transition: all 1.5s linear;
+}
+#content a:hover{
+		background: linear-gradient(0deg,#191369 0%,#5d55c0 100%);
+		transform:scale(1.25,1.25);
+		/*background-color:#191369;*/
+}
+#head {
+	line-height: 3em;
+	text-align: center;
+	color:#fff;
+	background:repeating-linear-gradient(45deg,#000 0px,#000 35px,#cb8d39 35px,#8d632b 70px);
+}
+
+#foot {
+	clear: both;
+	line-height: 1.5em;
+	text-align: center;
+	background-image: url(../素材/imgOscar/buntingFWinvert.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 45px;
+}
+
+#side section h4 {
+	font-family: "Comic Sans MS", cursive;
+	font-weight: normal;
+	font-size: 1.3em;
+}
+#content p i {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+nav ul li {
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+}
+nav ul li a {
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+
+
+nav {
+	font-family: Impact;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	opacity:1;
+	animation:displaying 5s 1 ease;
+}
+
+nav ul li:nth-of-type(even) a { 
+	display:block;
+	color: rgba(255,0,0,1); 
+	transform:scale(1);
+	transition:all 0.5s linear;
+}
+nav ul li:nth-of-type(even) a:hover { 
+	color: rgba(33,26,115,1); 
+	transform:scale(1.25);
+}
+nav ul li:nth-of-type(odd) a { 
+	display:block;
+	-webkit-transform:skewX(-20deg);
+	transition:all 0.5s linear;
+	}
+nav ul li:nth-of-type(odd) a:hover { 
+	display:block;
+	-webkit-transform:skewX(0deg);
+	}
+
+@keyframes warning{
+	0%{
+		text-shadow:0px 0px  0px #000000;
+		}
+	50%{
+		text-shadow:0px 0px  10px #000000;
+		}	
+	100%{
+		text-shadow:0px 0px  0px #000000;		
+		}	
+}
+@keyframes swing{
+	0%{
+		transform:rotate(0deg);
+		}
+	25%{
+		transform:rotate(4deg);
+		}
+	50%{
+		transform:rotate(0deg);
+		}
+	75%{
+		transform:rotate(-4deg);
+		}
+	100%{
+		transform:rotate(0deg);
+		}
+	}
+@keyframes  displaying{
+	0%{opacity:0;}
+	100%{opacity:1;}
+	}
