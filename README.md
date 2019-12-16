@@ -1,4 +1,4 @@
-**index-首页**![1576470409851](C:\Users\hasee\AppData\Roaming\Typora\typora-user-images\1576470409851.png)
+**index-首页**![1576470409851](https://github.com/Procac/Individuals/blob/master/%E6%88%AA%E5%9B%BE/1576470409851.png)
 
 ![1576470429767](C:\Users\hasee\AppData\Roaming\Typora\typora-user-images\1576470429767.png)
 
